@@ -1,0 +1,13 @@
+{
+  "best_model_by_rmse": "sarima",
+  "holdout_months": 6,
+  "details": {
+    "seasonal_naive": {},
+    "sarima": {
+      "order": "(0, 1, 1)",
+      "seasonal_order": "(0, 1, 1, 12)",
+      "aic": "330.2"
+    },
+    "gradient_boosting": {}
+  }
+}

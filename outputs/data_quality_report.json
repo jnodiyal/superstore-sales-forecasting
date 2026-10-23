@@ -1,0 +1,34 @@
+{
+  "before": {
+    "rows": 9994,
+    "missing_values": {},
+    "duplicate_rows": 1,
+    "unparseable_dates": 0,
+    "non_numeric_sales": 0,
+    "non_positive_sales": 0,
+    "future_dates": 0,
+    "sales_outliers_iqr3": 668,
+    "date_min": "2014-01-03",
+    "date_max": "2017-12-30"
+  },
+  "actions": {
+    "dropped_duplicate_rows": 1,
+    "dropped_missing_date_or_sales": 0,
+    "dropped_non_positive_sales": 0,
+    "dropped_future_dates": 0,
+    "note": "Outliers are flagged but kept (large orders are real sales)."
+  },
+  "months_of_history": 48,
+  "after": {
+    "rows": 9993,
+    "missing_values": {},
+    "duplicate_rows": 0,
+    "unparseable_dates": 0,
+    "non_numeric_sales": 0,
+    "non_positive_sales": 0,
+    "future_dates": 0,
+    "sales_outliers_iqr3": 668,
+    "date_min": "2014-01-03",
+    "date_max": "2017-12-30"
+  }
+}
