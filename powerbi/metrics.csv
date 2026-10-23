@@ -1,0 +1,4 @@
+model,MAPE_%,RMSE
+sarima,17.71,17039.27
+gradient_boosting,18.89,20388.84
+seasonal_naive,25.39,23430.16

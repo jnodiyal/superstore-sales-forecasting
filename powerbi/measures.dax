@@ -1,0 +1,10 @@
+-- Paste into Power BI: Home > New measure (one at a time).
+-- Table names: 'forecast_powerbi' and 'metrics'.
+
+Best Model = FIRSTNONBLANK ( forecast_powerbi[best_model], 1 )
+
+Best MAPE % = MINX ( metrics, metrics[MAPE_%] )
+
+Best RMSE = MINX ( metrics, metrics[RMSE] )
+
+Next 6M Forecast = SUMX ( FILTER ( forecast_powerbi, forecast_powerbi[period] = "Forecast" ), forecast_powerbi[future_forecast] )
